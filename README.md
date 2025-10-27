@@ -1,5 +1,23 @@
-# Vue 3 + TypeScript + Vite
+# OctoPrint Custom Frontend – Portfólio
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Frontend personalizado para **OctoPrint**, desenvolvido em **Vue 3 + Vite**, substituindo a interface padrão por um layout moderno, responsivo e interativo. Backend continua em Python rodando no Raspberry Pi.  
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## 🔹 Funcionalidades Principais
+
+- Dashboard em tempo real: status da impressora, temperatura, progresso e posição dos eixos.  
+- Controle completo da impressão: iniciar, pausar e parar.  
+- Upload e gerenciamento de arquivos de impressão.  
+- Layout responsivo e moderno, otimizado para desktop e tablet.  
+- Comunicação eficiente via **REST API** e **WebSocket**.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Frontend:** Vue 3, Vite, Pinia, Axios  
+- **Backend:** OctoPrint (Python) no Raspberry Pi  
+- **Hospedagem:** Servidor HTTP / Nginx  
+- **Controle em tempo real:** WebSocket  
+
